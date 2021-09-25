@@ -2,11 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-Markup : * Bullet list
-         * Nested bullet
-         * Sub-nested bullet etc
-         * Bullet list item 2
+-This is a islamic association team website;
+-This website build by react js;
+-you can easily create a team with visit the website
