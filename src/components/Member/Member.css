@@ -3,12 +3,34 @@
 }
 .card:hover{
     box-shadow: 2px -2px 20px rgba(0, 0, 0, 0.2);
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 .card_img img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #023047;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_icons a .icon{
+    color: #fb8500;
+    font-size: 18px;
+    line-height: 35px;
 }
 .card-body ul{
     margin: 0;

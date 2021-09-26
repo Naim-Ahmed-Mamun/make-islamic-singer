@@ -1,6 +1,7 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter,faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import './Member.css';
 
 const Member = (props) => {
@@ -14,6 +15,10 @@ const Member = (props) => {
                         <img src={picture} alt="..." />
                     </div>
                     <div className="card-body">
+                        <div className="social_icons text-center mb-3">
+                            <a href="/"><FontAwesomeIcon className="icon fb_icon" icon={faFacebookF} /></a>
+                            <a href="/"><FontAwesomeIcon className="icon twitter_icon" icon={faTwitter} /></a>
+                        </div>
                         <ul>
                             <li className="mb-3">Name: <span>{name}</span></li>
                             <li className="mb-3">Role: <span>{role}</span></li>

@@ -2,14 +2,14 @@ import React from 'react';
 import './SelectedMembers.css';
 
 const SelectedMembers = (props) => {
-    // console.log(props.memberDetails);
     const { selectedMembers } = props;
     // update total price
-    const total = selectedMembers.reduce((previous, current) => previous + parseInt(current.balance), 0)
+    const total = selectedMembers.reduce((previous, currentBalance) => previous + parseInt(currentBalance.balance), 0)
     return (
         <>
             <h2 className="selected_title mb-5 text-center">Members Added: <span>{selectedMembers.length}</span></h2>
             {
+                // display name and cost
                 selectedMembers.map(selectedMember => {
                     return (
                         <>
@@ -21,6 +21,7 @@ const SelectedMembers = (props) => {
                     )
                 })
             }
+            {/* display total price */}
             <div className="totalPrice d-flex justify-content-between mt-2 pt-2">
                 <h4>Total Price</h4>
                 <h5>{total}</h5>
