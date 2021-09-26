@@ -71,10 +71,13 @@
 }
 .regular_btn{
     background-color: #fb8500;
-    color: #023047;
+    color: #fff;
     font-weight: 600;
 }
+.regular_btn:hover{
+    color: white;
+}
 .cart_icon{
-    color: #023047;
+    color: #fff;
     margin-right: 5px;
 }
