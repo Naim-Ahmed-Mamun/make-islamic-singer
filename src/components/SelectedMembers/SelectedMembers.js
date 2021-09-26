@@ -13,7 +13,7 @@ const SelectedMembers = (props) => {
                 selectedMembers.map(selectedMember => {
                     return (
                         <>
-                            <div className="select_box d-flex justify-content-between mb-2">
+                            <div key={selectedMember.id} className="select_box d-flex justify-content-between mb-2">
                                 <h4 className="name">{selectedMember.name}</h4>
                                 <h5 className="price">{selectedMember.balance}</h5>
                             </div>
