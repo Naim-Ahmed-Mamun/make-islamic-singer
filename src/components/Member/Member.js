@@ -16,8 +16,8 @@ const Member = (props) => {
                     </div>
                     <div className="card-body">
                         <div className="social_icons text-center mb-3">
-                            <a href="/"><FontAwesomeIcon className="icon fb_icon" icon={faFacebookF} /></a>
-                            <a href="/"><FontAwesomeIcon className="icon twitter_icon" icon={faTwitter} /></a>
+                            <a href="/"><FontAwesomeIcon className="icon" icon={faFacebookF} /></a>
+                            <a href="/"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
                         </div>
                         <ul>
                             <li className="mb-3">Name: <span>{name}</span></li>
